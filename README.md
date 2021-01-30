@@ -1,5 +1,7 @@
 # Henrys Fork Wildlife Alliance
 
+![](https://img.shields.io/static/v1?label=Version&message=0.2&color=d59c40&style=for-the-badge)
+
 ## Description
 
 A WordPress theme for [Henrys Fork Wildlife Alliance](https://henrysforkwildlifealliance.org/).
