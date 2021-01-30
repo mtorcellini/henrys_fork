@@ -178,6 +178,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+// Create Quizzes post type
 function create_custom_posts() {
   register_post_type( 'quizzes', 
     //CPT Options
