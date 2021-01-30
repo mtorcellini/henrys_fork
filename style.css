@@ -967,3 +967,50 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+/* CUSTOM STYLES */
+
+body {
+  background-color: #0A0A0A;
+  color: #fff;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.page .site-title {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+nav .menu-toggle {
+  background: #6A6A6A;
+  border: none;
+  display: block;
+  height: 4.75rem;
+  width: 4.75rem;
+  border-radius: 12px;
+}
+
+nav .menu-toggle:active {
+  background: #111;
+}
+
+.page article {
+  margin: 0 auto;
+  width: 90%;
+}
+
+h1.entry-title {
+  font-family: "Georgia";
+  border-bottom: 1px solid red;
+  margin: .5em auto;
+  line-height: 2.25em;
+}
