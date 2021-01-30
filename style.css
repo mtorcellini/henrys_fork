@@ -1009,7 +1009,7 @@ nav .menu-toggle:active {
 
 h1.entry-title {
   font-family: "Georgia";
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #d59c40;
   margin: .5em auto;
   line-height: 2.25em;
 }
