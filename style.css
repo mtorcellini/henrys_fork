@@ -700,7 +700,7 @@ textarea {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+	display: flex;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -992,14 +992,26 @@ a:visited {
 
 nav .menu-toggle {
   background: #6A6A6A;
+  background: #d59c40;
   border: none;
-  height: 4.75rem;
-  width: 4.75rem;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+  align-items: center;
+  height: 65px;
+  width: 65px;
   border-radius: 12px;
+  padding: 8px 0;
 }
 
 nav .menu-toggle:active {
   background: #111;
+}
+
+.menu-toggle .burgerDiv {
+  background: #fff;
+  border-radius: 6px;
+  height: 6px;
+  width: 65%;
 }
 
 .page article {
