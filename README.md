@@ -10,9 +10,13 @@ Includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 Clone this repo and add to `wp-content/themes`.
 
+## Images
+
+![mobile screenshot 01](./screenshots/mobile01.png?raw=true)
+
 ## License
 
-This theme is licensed under the GNU General Public License v3.
+This theme is licensed under the [GNU General Public License v3](./LICENSE.md).
 
 #### Credits
 
