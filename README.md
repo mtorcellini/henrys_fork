@@ -14,7 +14,13 @@ Clone this repo and add to `wp-content/themes`.
 
 ## Images
 
-![mobile screenshot 01](./screenshots/mobile01.png?raw=true)
+![mobile screenshot 01 Burger Button](./screenshots/mobile01.png?raw=true)
+_Burger Button_
+
+![tablet screenshot 01 Layout of Our Work Page](./screenshots/mobile02.png?raw=true)
+_Layout of Our Work Page_
+
+
 
 ## License
 
