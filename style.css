@@ -985,6 +985,12 @@ a:visited {
   color: inherit;
 }
 
+.home .site-title {
+  text-align: right;
+  font-size: 1.8rem;
+  /* padding-right: 1em; */
+}
+
 .page .site-title {
   font-size: 1.75rem;
   text-align: center;
@@ -1001,10 +1007,15 @@ nav .menu-toggle {
   width: 65px;
   border-radius: 12px;
   padding: 8px 0;
+  position: absolute;
+  top: 60px;
+  transition: 200ms;
 }
 
 nav .menu-toggle:active {
   background: #111;
+  transform: scale(0.9);
+  transition: 200ms;
 }
 
 .menu-toggle .burgerDiv {
@@ -1012,6 +1023,25 @@ nav .menu-toggle:active {
   border-radius: 6px;
   height: 6px;
   width: 65%;
+}
+
+.nav-menu {
+  flex-flow: row wrap;
+}
+
+.nav-menu li {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-menu a {
+  transition-duration: 700ms;
+}
+
+.nav-menu a:hover {
+  letter-spacing: .5em;
+  transition-duration: 700ms;
 }
 
 .page article {
