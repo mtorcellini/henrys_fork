@@ -35,9 +35,29 @@
 				<?php
 			else :
 				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+        <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
-			endif;
+      endif;
+      ?>
+      
+      <nav id="site-navigation" class="main-navigation">
+        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+          <?php //esc_html_e( 'Primary Menu', 'henrys_fork' ); ?> 
+          <div class="burgerDiv"></div>
+          <div class="burgerDiv"></div>
+          <div class="burgerDiv"></div>
+        </button>
+        <?php
+        wp_nav_menu(
+          array(
+            'theme_location' => 'menu-1',
+            'menu_id'        => 'primary-menu',
+          )
+        );
+        ?>
+      </nav>
+
+    <?php
 			$henrys_fork_description = get_bloginfo( 'description', 'display' );
 			if ( $henrys_fork_description || is_customize_preview() ) :
 				?>
@@ -51,9 +71,10 @@
     }
     ?>
 
+<!--
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-        <!-- <?php esc_html_e( 'Primary Menu', 'henrys_fork' ); ?> -->
+        <?php //esc_html_e( 'Primary Menu', 'henrys_fork' ); ?> 
         <div class="burgerDiv"></div>
         <div class="burgerDiv"></div>
         <div class="burgerDiv"></div>
@@ -66,7 +87,8 @@
 				)
 			);
 			?>
-    </nav><!-- #site-navigation -->
+    </nav>
+  -->
 
 
 

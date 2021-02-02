@@ -985,16 +985,32 @@ a:visited {
   color: inherit;
 }
 
+.site-branding {
+  display: flex;
+  flex-flow: row;
+}
+
 .home .site-title {
   text-align: right;
   font-size: 1.8rem;
   /* padding-right: 1em; */
+  width: 75%;
+}
+
+.home .main-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
 }
 
 .page .site-title {
-  font-size: 1.75rem;
-  text-align: center;
+  font-size: 1.5rem;
+  text-align: right;
+  padding-right: .25em;
+  font-weight: 500;
 }
+
 
 nav .menu-toggle {
   background: #6A6A6A;
@@ -1003,12 +1019,12 @@ nav .menu-toggle {
   justify-content: space-evenly;
   flex-flow: column wrap;
   align-items: center;
-  height: 65px;
-  width: 65px;
+  height: 45px;
+  width: 45px;
   border-radius: 12px;
   padding: 8px 0;
-  position: absolute;
-  top: 60px;
+  /* position: absolute;
+  top: 60px; */
   transition: 200ms;
 }
 
@@ -1021,22 +1037,37 @@ nav .menu-toggle:active {
 .menu-toggle .burgerDiv {
   background: #fff;
   border-radius: 6px;
-  height: 6px;
+  height: 4px;
   width: 65%;
 }
 
+.menu-primary-menu-container {
+  background: #000;
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  width: 100%;
+}
+
 .nav-menu {
-  flex-flow: row wrap;
+  flex-flow: column;
 }
 
 .nav-menu li {
   display: block;
-  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #d59c40;
+  width: 40%;
   text-align: center;
+}
+
+.nav-menu li:last-child {
+  border-bottom: none;
 }
 
 .nav-menu a {
   transition-duration: 700ms;
+  font-size: 1.2rem;
 }
 
 .nav-menu a:hover {
