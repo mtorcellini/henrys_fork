@@ -43,7 +43,13 @@
 				?>
 				<p class="site-description"><?php echo $henrys_fork_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
-		</div><!-- .site-branding -->
+    </div><!-- .site-branding -->
+    
+    <?php 
+    if (is_active_sidebar('sidebar-top')) {
+      dynamic_sidebar('sidebar-top');
+    }
+    ?>
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
@@ -60,5 +66,8 @@
 				)
 			);
 			?>
-		</nav><!-- #site-navigation -->
+    </nav><!-- #site-navigation -->
+
+
+
 	</header><!-- #masthead -->

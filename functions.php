@@ -132,7 +132,18 @@ function henrys_fork_widgets_init() {
 			'before_title'  => '<h2 class="widget-title">',
 			'after_title'   => '</h2>',
 		)
-	);
+  );
+  register_sidebar(
+    array(
+      'name' => esc_html__( 'Top Widget Area', 'henrys_fork' ),
+      'id' => 'sidebar-top',
+      'description' => esc_html__( 'For the header', 'henrys_fork' ),
+      'before_widget' => '<div id="%1$s" class="widget %2$s">',
+      'after_widget' => '</div>',
+      'before_title' => '<div class="widget-title-holder"><h3 class="widget-title">',
+      'after_title' => '</h3></div>'
+      )
+    );
 }
 add_action( 'widgets_init', 'henrys_fork_widgets_init' );
 
@@ -177,21 +188,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
-// Add new sidebar
-function register_custom_widget_area() {
-  register_sidebar(
-    array(
-      'id' => 'top-widget-area',
-      'name' => esc_html__( 'Top Widget Area', 'theme-domain' ),
-      'description' => esc_html__( 'For the header', 'theme-domain' ),
-      'before_widget' => '<div id="%1$s" class="widget %2$s">',
-      'after_widget' => '</div>',
-      'before_title' => '<div class="widget-title-holder"><h3 class="widget-title">',
-      'after_title' => '</h3></div>'
-      )
-    );
-  }
-
-add_action( 'widgets_init', 'register_custom_widget_area' );
-  
