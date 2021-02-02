@@ -188,3 +188,15 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+// Change default search form placeholders
+function html5_search_form( $form ) { 
+  $form = '<section class="search"><form role="search" method="get" id="search-form" action="' . home_url( '/' ) . '" >
+ <label class="screen-reader-text" for="s">' . __('',  'domain') . '</label>
+  <input type="search" value="' . get_search_query() . '" name="s" id="s" placeholder="Search website" />
+  <button type="submit" id="searchsubmit"><i class="fas fa-search"></i></button>
+  </form></section>';
+  return $form;
+}
+
+add_filter( 'get_search_form', 'html5_search_form' );

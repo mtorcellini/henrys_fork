@@ -1044,6 +1044,14 @@ nav .menu-toggle:active {
   transition-duration: 700ms;
 }
 
+.widget_search button[type="submit"] {
+  background-color: #d59c40;
+  border: none;
+  display: inline-block;
+  height: 2em;
+  padding: 0 .5em;
+}
+
 .page article {
   margin: 0 auto;
   width: 90%;
