@@ -1078,6 +1078,12 @@ nav .menu-toggle:active {
   transition-duration: 700ms;
 }
 
+.widget_search #search-form {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
 .widget_search button[type="submit"] {
   background-color: #d59c40;
   border: none;
