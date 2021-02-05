@@ -1081,7 +1081,7 @@ nav .menu-toggle:active {
 .widget_search #search-form {
   margin: 0 auto;
   text-align: center;
-  width: 60%;
+  width: 100%;
 }
 
 .widget_search button[type="submit"] {
@@ -1091,6 +1091,22 @@ nav .menu-toggle:active {
   height: 2em;
   padding: 0 .5em;
 }
+
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.entry-content figure {
+  position: relative;
+  left: -5%;
+  width: 100vw;
+}
+
+.entry-content figcaption {
+  padding: 0 5%;
+}
+
 
 .page article {
   margin: 0 auto;
