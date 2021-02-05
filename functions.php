@@ -227,6 +227,7 @@ function create_custom_posts() {
       'has_archive' => true,
       'rewrite' => array('slug' => 'testimonials'),
       'show_in_rest' => true,
+      'supports' => array('title', 'editor')
     )
   );
 }
