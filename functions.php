@@ -200,3 +200,35 @@ function html5_search_form( $form ) {
 }
 
 add_filter( 'get_search_form', 'html5_search_form' );
+// Create Quizzes post type
+function create_custom_posts() {
+  register_post_type( 'quizzes', 
+    //CPT Options
+    array(
+      'labels' => array(
+        'name' => __('Quizzes'),
+        'singular_name'  => __('Quiz')
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'rewrite' => array('slug' => 'quizzes'),
+      'show_in_rest' => true,
+    )
+  );
+
+  register_post_type( 'testimonials',
+    //CPT Options
+    array(
+      'labels' => array(
+        'name' => __('Testimonials'),
+        'singular_name' => __('Testimonial')
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'rewrite' => array('slug' => 'testimonials'),
+      'show_in_rest' => true,
+    )
+  );
+}
+
+add_action('init', 'create_custom_posts');
