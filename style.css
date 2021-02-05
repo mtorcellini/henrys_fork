@@ -1142,3 +1142,22 @@ h1.entry-title {
     width: auto;
   }
 }
+
+/* Archive Sliders */
+
+.wplp_outside.wplp_widget_69 {
+  display: block;
+}
+
+.wplp_outside.wplp_widget_95 {
+  display: none;
+}
+
+@media(min-width: 768px) {
+  .wplp_outside.wplp_widget_69 {
+    display: none;
+  }
+  .wplp_outside.wplp_widget_95 {
+    display: block;
+  }
+}
