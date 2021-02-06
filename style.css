@@ -981,6 +981,10 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0 1em;
+}
+
 a:visited {
   color: inherit;
 }
@@ -993,7 +997,7 @@ a:visited {
 .site-title {
   text-align: right;
   font-size: 1.8rem;
-  /* padding-right: 1em; */
+  padding: 0;
   width: 75%;
 }
 
@@ -1026,8 +1030,6 @@ nav .menu-toggle {
   width: 45px;
   border-radius: 12px;
   padding: 8px 0;
-  /* position: absolute;
-  top: 60px; */
   transition: 200ms;
 }
 
@@ -1093,14 +1095,16 @@ nav .menu-toggle:active {
 }
 
 main {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
 
+
+
 .entry-content figure {
-  position: relative;
-  left: -5%;
-  width: 100vw;
+  /* position: relative;
+  left: -5%; */
+  width: 100%;
 }
 
 .entry-content figcaption {
@@ -1110,7 +1114,7 @@ main {
 
 .page article {
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 h1.entry-title {
@@ -1133,14 +1137,19 @@ h1.entry-title {
 
 /* about page */
 
-#post-5 figure {
+.mission-section figure {
   width: 75%;
   margin: 0 auto;
   position: static;
+
 }
 
-#post-5 figure img {
+.mission-section figure img {
   border-radius: 50%;
+}
+
+.about-us figure {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
