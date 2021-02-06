@@ -1131,6 +1131,18 @@ h1.entry-title {
   display: none;
 }
 
+/* about page */
+
+#post-5 figure {
+  width: 75%;
+  margin: 0 auto;
+  position: static;
+}
+
+#post-5 figure img {
+  border-radius: 50%;
+}
+
 @media screen and (min-width: 768px) {
   
   .site-title {
