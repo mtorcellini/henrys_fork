@@ -1152,6 +1152,12 @@ h1.entry-title {
   width: 100%;
 }
 
+.about-us .wp-block-column ul {
+  list-style: circle;
+}
+
+
+
 @media screen and (min-width: 768px) {
   
   .site-title {
@@ -1187,6 +1193,32 @@ h1.entry-title {
 
   .wplp_outside.wplp_widget_95 {
     display: block;
+  }
+
+  /* about-us */
+
+  .page-id-5 figure.who-we-are{
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .page-id-5 .who-we-are img {
+    width: 100%;
+  }
+
+  .about-us.wp-block-columns {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .about-us.wp-block-columns {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  .about-us.wp-block-columns:nth-child(2n) {
+    flex-flow: row-reverse;
   }
 
 }
