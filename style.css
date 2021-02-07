@@ -1184,6 +1184,14 @@ h1.entry-title {
   .nav-menu li {
     width: auto;
   }
+  
+  main .page .entry-content .wp-block-columns {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    width: 90%;
+  }
 
   /* Archive Sliders */
 
@@ -1194,7 +1202,7 @@ h1.entry-title {
   .wplp_outside.wplp_widget_95 {
     display: block;
   }
-
+  
   /* about-us */
 
   .page-id-5 figure.who-we-are{
@@ -1218,7 +1226,10 @@ h1.entry-title {
   }
 
   .about-us.wp-block-columns:nth-child(2n) {
-    flex-flow: row-reverse;
+    flex-flow: row-reverse !important;
   }
+
+
+
 
 }
