@@ -1085,6 +1085,7 @@ nav .menu-toggle:active {
   transition-duration: 700ms;
 }
 
+
 .widget_search #search-form {
   margin: 0 auto;
   text-align: center;
@@ -1188,6 +1189,10 @@ h1.entry-title {
 
   .nav-menu li {
     width: auto;
+  }
+
+  .widget_search {
+    margin: 2em auto;
   }
   
   main .page .entry-content .wp-block-columns {
