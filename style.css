@@ -1018,6 +1018,10 @@ p.site-title {
   font-size: 1.25rem;
 }
 
+p.hero-text.has-large-font-size {
+  font-variant: small-caps;
+}
+
 
 nav .menu-toggle {
   background: #6A6A6A;
@@ -1052,6 +1056,7 @@ nav .menu-toggle:active {
   top: 3rem;
   left: 0;
   width: 100%;
+  z-index: 10;
 }
 
 .nav-menu {
