@@ -66,8 +66,10 @@
     </div><!-- .site-branding -->
     
     <?php 
-    if (is_active_sidebar('sidebar-top')) {
-      dynamic_sidebar('sidebar-top');
+    if (is_front_page() || is_home()) {
+      if (is_active_sidebar('sidebar-top')) {
+        dynamic_sidebar('sidebar-top');
+      }
     }
     ?>
 
