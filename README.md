@@ -1,6 +1,6 @@
 # Henrys Fork Wildlife Alliance
 
-![](https://img.shields.io/static/v1?label=Version&message=0.2&color=d59c40&style=for-the-badge)
+![](https://img.shields.io/static/v1?label=Version&message=0.5&color=d59c40&style=for-the-badge)
 
 ## Description
 
