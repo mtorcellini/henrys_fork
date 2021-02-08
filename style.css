@@ -1098,6 +1098,13 @@ button[type="submit"], button.mailing {
   display: inline-block;
   height: 2em;
   padding: 0 .5em;
+  transition: 350ms
+}
+
+button[type="submit"]:hover, button.mailing:hover {
+  background-color: #333;
+  color: #fff;
+  transition: 350ms;
 }
 
 .textwidget.custom-html-widget {
@@ -1210,6 +1217,28 @@ h1.entry-title {
   }
 
   .widget_search {
+    margin: 2em auto;
+  }
+
+  #masthead {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .site-branding {
+    width: 100%;
+  }
+
+  #search-2 {
+    width: 50%;
+  }
+
+  #custom_html-2 {
+    width: 50%;
     margin: 2em auto;
   }
   
