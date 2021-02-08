@@ -1092,7 +1092,7 @@ nav .menu-toggle:active {
   width: 100%;
 }
 
-.widget_search button[type="submit"] {
+button[type="submit"] {
   background-color: #d59c40;
   border: none;
   display: inline-block;
@@ -1100,12 +1100,20 @@ nav .menu-toggle:active {
   padding: 0 .5em;
 }
 
+#mc4wp_form_widget-2 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#mc4wp_form_widget-2 .mc4wp-form-fields > * {
+  display: block;
+  margin: .25em auto;
+}
+
 main {
   width: 100%;
   margin: 0 auto;
 }
-
-
 
 .entry-content figure {
   /* position: relative;
