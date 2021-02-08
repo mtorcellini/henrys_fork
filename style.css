@@ -1092,13 +1092,19 @@ nav .menu-toggle:active {
   width: 100%;
 }
 
-button[type="submit"] {
+button[type="submit"], button.mailing {
   background-color: #d59c40;
   border: none;
   display: inline-block;
   height: 2em;
   padding: 0 .5em;
 }
+
+.textwidget.custom-html-widget {
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 #mc4wp_form_widget-2 {
   text-align: center;
