@@ -1024,7 +1024,6 @@ p.hero-text.has-large-font-size {
 
 
 nav .menu-toggle {
-  background: #6A6A6A;
   background: #d59c40;
   border: none;
   justify-content: space-evenly;
@@ -1129,8 +1128,6 @@ main {
 }
 
 .entry-content figure {
-  /* position: relative;
-  left: -5%; */
   width: 100%;
 }
 
