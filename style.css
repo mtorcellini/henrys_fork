@@ -1183,6 +1183,34 @@ h1.entry-title {
   list-style: circle;
 }
 
+/* mailing list signup page */
+
+#mc4wp-form-1 .mc4wp-form-fields {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#mc4wp-form-1 input, #mc4wp-form-1 select {
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+#mc4wp-form-1 textarea {
+  width: 85%;
+  margin-bottom: 1.5em;
+}
+
+#mc4wp-form-1 label {
+  width: 100%;
+}
+
+#mc4wp-form-1 button {
+  margin: 1em auto 2em;
+}
+
 
 @media screen and (min-width: 768px) {
   
@@ -1283,6 +1311,29 @@ h1.entry-title {
 
   .about-us.wp-block-columns:nth-child(2n) {
     flex-flow: row-reverse !important;
+  }
+
+  /* mailing list signup page */
+
+  #mc4wp-form-1 .mc4wp-form-fields {
+    justify-content: flex-start;
+    width: 30%;
+  }
+  
+  #mc4wp-form-1 input, #mc4wp-form-1 select {
+    width: 100%;
+  }
+  
+  #mc4wp-form-1 textarea {
+    width: 100%;
+  }
+  
+  #mc4wp-form-1 label {
+    width: 100%;
+  }
+  
+  #mc4wp-form-1 button {
+    margin: .75em 0 3em;
   }
 
 
