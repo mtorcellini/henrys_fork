@@ -1148,17 +1148,6 @@ h1.entry-title {
   line-height: 2.25em;
 }
 
-/* Archive Sliders */
-/* Toggle relevant slider for layout */
-
-/* .wplp_outside.wplp_widget_69 {
-  display: block;
-}
-
-.wplp_outside.wplp_widget_95 {
-  display: none;
-} */
-
 /* about page */
 
 .mission-section figure {
@@ -1219,6 +1208,26 @@ h1.entry-title {
   background: none;
 
 }
+
+/* archives */
+
+.archive .posted-on {
+  margin-left: 10px;
+}
+
+.archive .posted-on a {
+  color: #66a4c0;
+  color: #92ae89;
+}
+
+.archive h2.entry-title {
+  color: #66a4c0;
+}
+
+.archive h2.entry-title a {
+  color: inherit;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -1350,6 +1359,33 @@ h1.entry-title {
   #post-46 .entry-content {
     width: 95%;
     margin: 0 auto;
+  }
+
+  /* archives */
+
+  .archive .page-header {
+    width: 65%;
+    margin: 3.5em auto 3em;
+  }
+
+  .archive article {
+    margin: 3em auto;
+    width: 65%;
+  }
+
+  .archive article .entry-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .archive article figure {
+    width: 75%;
+    /* margin: 0 auto; */
+  }
+
+  .archive article img {
+    width: 100%;
   }
 
 

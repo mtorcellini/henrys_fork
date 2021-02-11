@@ -108,7 +108,7 @@ get_header();
           </div><!-- .entry-content -->
 
           <footer class="entry-footer">
-            <?php henrys_fork_entry_footer(); ?>
+            <?php // henrys_fork_entry_footer(); // "Posted in [category] | Leave a Comment | Edit ?>
           </footer><!-- .entry-footer -->
         </article><!-- #post-<?php the_ID(); ?> -->
 
