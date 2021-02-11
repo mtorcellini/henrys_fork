@@ -985,6 +985,10 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0 1em;
 }
 
+h2 a {
+  color: #66a4c0 !important;
+}
+
 a:visited {
   color: inherit;
 }
@@ -1135,6 +1139,18 @@ main {
   padding: 0 5%;
 }
 
+.home h2 {
+  font-size: 2rem;
+}
+
+.home h2 a {
+  transition: 500ms;
+}
+
+.home h2 a:hover {
+  letter-spacing: .17em;
+  transition: 500ms;
+}
 
 .page article {
   margin: 0 auto;
