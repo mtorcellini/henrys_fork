@@ -993,6 +993,19 @@ a:visited {
   color: inherit;
 }
 
+.wp-block-button__link {
+  background-color: #d59c40;
+  transition: 300ms;
+}
+
+.wp-block-button__link:hover {
+  background-color: #32373c;
+}
+
+.wp-block-button__link:active {
+  background-color: #000;
+}
+
 .site-branding {
   display: flex;
   flex-flow: row wrap;
@@ -1040,10 +1053,14 @@ nav .menu-toggle {
   transition: 200ms;
 }
 
+  nav .menu-toggle:hover {
+    background-color: #32373c;
+  }
+
+
 nav .menu-toggle:active {
   background: #111;
   transform: scale(0.9);
-  transition: 200ms;
 }
 
 .menu-toggle .burgerDiv {
@@ -1085,7 +1102,6 @@ nav .menu-toggle:active {
 
 .nav-menu a:hover {
   letter-spacing: .4em;
-  transition-duration: 700ms;
 }
 
 
@@ -1107,7 +1123,6 @@ button[type="submit"], button.mailing {
 button[type="submit"]:hover, button.mailing:hover {
   background-color: #333;
   color: #fff;
-  transition: 350ms;
 }
 
 .textwidget.custom-html-widget {
@@ -1149,7 +1164,6 @@ main {
 
 .home h2 a:hover {
   letter-spacing: .17em;
-  transition: 500ms;
 }
 
 .page article {
@@ -1256,7 +1270,6 @@ h1.entry-title {
 
 .archive figure:hover {
   opacity: 0.5;
-  transition: 500ms;
   transition-timing-function: ease;
 }
 
