@@ -56,14 +56,13 @@ get_header();
             <?php endif; ?>
           </header><!-- .entry-header -->
 
-          <?php henrys_fork_post_thumbnail(); ?>
+          <?php //henrys_fork_post_thumbnail(); ?>
 
           <div class="entry-content">
 
               <figure class="archive-image">
                 <img src="<?php echo get_first_image(get_the_id()); ?>" alt="post image" />
               </figure>
-
 
             <?php
 
