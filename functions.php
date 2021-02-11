@@ -233,3 +233,16 @@ function create_custom_posts() {
 }
 
 add_action('init', 'create_custom_posts');
+
+function get_first_image( $post_id ) {
+  $attach = get_children( array(
+      'post_parent'    => $post_id,
+      'post_type'      => 'attachment',
+      'post_mime_type' => 'image',
+      'order'          => 'DESC',
+      'numberposts'    => 1
+  ) );
+  if( is_array( $attach ) && is_object( current( $attach ) ) ) {
+      return current( $attach )->guid;
+  }
+}
