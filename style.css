@@ -1222,10 +1222,26 @@ h1.entry-title {
 
 .archive h2.entry-title {
   color: #66a4c0;
+  transition: 500ms;
+}
+
+.archive h2:hover {
+  letter-spacing: .05em;
+  transition: 500ms;
 }
 
 .archive h2.entry-title a {
   color: inherit;
+}
+
+.archive figure {
+  transition: 500ms;
+}
+
+.archive figure:hover {
+  opacity: 0.5;
+  transition: 500ms;
+  transition-timing-function: ease;
 }
 
 
