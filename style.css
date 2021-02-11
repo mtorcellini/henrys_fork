@@ -1151,13 +1151,13 @@ h1.entry-title {
 /* Archive Sliders */
 /* Toggle relevant slider for layout */
 
-.wplp_outside.wplp_widget_69 {
+/* .wplp_outside.wplp_widget_69 {
   display: block;
 }
 
 .wplp_outside.wplp_widget_95 {
   display: none;
-}
+} */
 
 /* about page */
 
@@ -1206,6 +1206,18 @@ h1.entry-title {
 
 #mc4wp-form-1 button {
   margin: 1em auto 2em;
+}
+
+/* news page */
+
+.wplp_widget_masonry-category .wplp_listposts li {
+  border: none !important;
+}
+
+.masonry-brick:hover .img_cropper::before {
+  content: none !important;
+  background: none;
+
 }
 
 
@@ -1276,13 +1288,13 @@ h1.entry-title {
 
   /* Archive Sliders */
 
-  .wplp_outside.wplp_widget_69 {
+  /* .wplp_outside.wplp_widget_69 {
     display: none;
   }
 
   .wplp_outside.wplp_widget_95 {
     display: block;
-  }
+  } */
   
   /* about-us */
 
@@ -1333,7 +1345,12 @@ h1.entry-title {
     margin: .75em 0 3em;
   }
 
+  /* news page */
 
+  #post-46 .entry-content {
+    width: 95%;
+    margin: 0 auto;
+  }
 
 
 }
