@@ -1176,7 +1176,7 @@ h1.entry-title {
   font-family: "Georgia";
   border-bottom: 1px solid #d59c40;
   margin: .5em auto;
-  line-height: 2.25em;
+  line-height: 1.5em;
 }
 
 /* about page */
@@ -1274,8 +1274,30 @@ h1.entry-title {
   transition-timing-function: ease;
 }
 
+/* single post */
 
 
+.single-post time.entry-date {
+  color: #92ae89;
+}
+
+.single-post .posted-on {
+  margin-left: 10px;
+}
+
+.single-post figcaption {
+  background-color: #21759b;
+  margin: 0 auto;
+  width: 90%;
+  line-height: 1.5em;
+  font-size: .9rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.single-post img {
+  margin: 0 auto;
+  padding: 0;
+}
 @media screen and (min-width: 768px) {
   
   .site-title {
