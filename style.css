@@ -1456,5 +1456,21 @@ h1.entry-title {
     width: 100%;
   }
 
+  /* single post */
+
+  .single-post {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .single-post figure {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .single-post figcaption {
+    padding: 10px;
+  }
+
 
 }
