@@ -1244,6 +1244,13 @@ h1.entry-title {
 
 }
 
+/* donate page */
+
+.donate-form {
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* archives */
 
 .archive .posted-on {
