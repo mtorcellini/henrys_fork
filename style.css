@@ -1235,6 +1235,14 @@ h1.entry-title {
   margin: 1em auto 2em;
 }
 
+/* quizzes on homepage */
+/* local version 290, live 366 */
+#wplp_widget_290 .flex-viewport .insideframe > ul, #wplp_widget_366 .flex-viewport .insideframe > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
 /* news page */
 
 .wplp_widget_masonry-category .wplp_listposts li {
