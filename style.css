@@ -1383,6 +1383,10 @@ h1.entry-title {
     margin: 20px auto;
     width: 90%;
   }
+
+  h1.entry-title {
+    width: 85%;
+  }
   
   /* about-us */
 
@@ -1491,5 +1495,10 @@ h1.entry-title {
 
   .home.page .wp-block-columns {
     width: 80%;
+  }
+
+  h1.entry-title {
+    margin-top: 1.75em;
+    width: 70%;
   }
 }
