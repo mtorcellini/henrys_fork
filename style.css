@@ -1155,6 +1155,10 @@ main {
   padding: 0 5%;
 }
 
+.entry-content a {
+  color: #92ae89;
+}
+
 .home h2 {
   font-size: 2rem;
 }
@@ -1285,10 +1289,14 @@ h1.entry-title {
   margin-left: 10px;
 }
 
+.single-post figure {
+  text-align: center;
+}
+
 .single-post figcaption {
   background-color: #21759b;
   margin: 0 auto;
-  width: 90%;
+  width: 60%;
   line-height: 1.5em;
   font-size: .9rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
