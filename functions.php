@@ -213,6 +213,7 @@ function create_custom_posts() {
       'has_archive' => true,
       'rewrite' => array('slug' => 'quizzes'),
       'show_in_rest' => true,
+      'supports' => array('title', 'thumbnail')
     )
   );
 
