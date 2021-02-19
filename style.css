@@ -1314,6 +1314,11 @@ h1.entry-title {
   padding: 0;
 }
 @media screen and (min-width: 768px) {
+
+  .page .entry-content {
+    margin: 0 auto;
+    width: 85%;
+  }
   
   .site-title {
     text-align: center;
@@ -1374,16 +1379,6 @@ h1.entry-title {
     margin: 20px auto;
     width: 90%;
   }
-
-  /* Archive Sliders */
-
-  /* .wplp_outside.wplp_widget_69 {
-    display: none;
-  }
-
-  .wplp_outside.wplp_widget_95 {
-    display: block;
-  } */
   
   /* about-us */
 
@@ -1461,7 +1456,6 @@ h1.entry-title {
 
   .archive article figure {
     width: 75%;
-    /* margin: 0 auto; */
   }
 
   .archive article img {
@@ -1487,6 +1481,10 @@ h1.entry-title {
 }
 
 @media screen and (min-width: 1200px) {
+  .page .entry-content {
+    width: 70%;
+  }
+  
   .home.page .wp-block-columns {
     width: 80%;
   }
