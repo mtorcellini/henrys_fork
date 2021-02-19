@@ -1319,6 +1319,10 @@ h1.entry-title {
     margin: 0 auto;
     width: 85%;
   }
+
+  .home.page .entry-content {
+    width: 100%;
+  }
   
   .site-title {
     text-align: center;
@@ -1484,7 +1488,7 @@ h1.entry-title {
   .page .entry-content {
     width: 70%;
   }
-  
+
   .home.page .wp-block-columns {
     width: 80%;
   }
