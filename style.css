@@ -1354,12 +1354,9 @@ h1.entry-title {
     width: 50%;
     margin: 2em auto;
   }
-  
-  main .page .entry-content .wp-block-columns {
-    display: flex;
-    align-items: flex-start;
-    flex-flow: row wrap;
-    margin: 0 auto;
+
+  .home.page .wp-block-columns {
+    margin: 20px auto;
     width: 90%;
   }
 
@@ -1472,5 +1469,10 @@ h1.entry-title {
     padding: 10px;
   }
 
+}
 
+@media screen and (min-width: 1200px) {
+  .home.page .wp-block-columns {
+    width: 80%;
+  }
 }
