@@ -247,3 +247,14 @@ function get_first_image( $post_id ) {
       return current( $attach )->guid;
   }
 }
+
+
+function redirect_post_type_single(){
+    if ( ! is_singular( 'quizzes' ) )
+        return;
+    $redirect = get_field('quiz_link');
+    wp_redirect( $redirect );
+    exit;
+}
+
+add_action( 'template_redirect', 'redirect_post_type_single' );
