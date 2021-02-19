@@ -1052,6 +1052,9 @@ nav .menu-toggle {
   border-radius: 12px;
   padding: 8px 0;
   transition: 200ms;
+  position: absolute;
+  top: 30px;
+  right: 15px;
 }
 
   nav .menu-toggle:hover {
@@ -1495,6 +1498,11 @@ h1.entry-title {
 
   .home.page .wp-block-columns {
     width: 80%;
+  }
+
+  .custom-logo-link {
+    position: relative;
+    left: -75px;
   }
 
   h1.entry-title {
