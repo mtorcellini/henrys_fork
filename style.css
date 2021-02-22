@@ -1040,10 +1040,11 @@ p.hero-text.has-large-font-size {
   font-variant: small-caps;
 }
 
+/* give now button */
 .home .wp-block-cover .wp-block-buttons {
   text-align: center;
   position: relative;
-  bottom: -50px;
+  bottom: -150px;
 }
 
 .home .wp-block-cover .wp-block-buttons .give-btn:hover a {
@@ -1401,7 +1402,7 @@ h1.entry-title {
     text-align: left;
     position: relative;
     left: 3em;
-    bottom: -60px;
+    bottom: -150px;
   }
 
   .home.page .wp-block-columns {
