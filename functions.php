@@ -217,20 +217,20 @@ function create_custom_posts() {
     )
   );
 
-  register_post_type( 'testimonials',
-    //CPT Options
-    array(
-      'labels' => array(
-        'name' => __('Testimonials'),
-        'singular_name' => __('Testimonial')
-      ),
-      'public' => true,
-      'has_archive' => true,
-      'rewrite' => array('slug' => 'testimonials'),
-      'show_in_rest' => true,
-      'supports' => array('title', 'editor')
-    )
-  );
+//   register_post_type( 'testimonials',
+//     //CPT Options
+//     array(
+//       'labels' => array(
+//         'name' => __('Testimonials'),
+//         'singular_name' => __('Testimonial')
+//       ),
+//       'public' => true,
+//       'has_archive' => true,
+//       'rewrite' => array('slug' => 'testimonials'),
+//       'show_in_rest' => true,
+//       'supports' => array('title', 'editor')
+//     )
+//   );
 }
 
 add_action('init', 'create_custom_posts');
