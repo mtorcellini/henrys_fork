@@ -1112,6 +1112,16 @@ nav .menu-toggle:active {
   border-bottom: none;
 }
 
+.nav-menu .sub-menu {
+  flex-flow: row wrap;
+}
+
+.nav-menu .sub-menu li {
+  width: 100%;
+  border: none !important;
+  background: #333;
+}
+
 .nav-menu a {
   transition-duration: 700ms;
   font-size: 1.2rem;
