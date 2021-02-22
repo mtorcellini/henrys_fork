@@ -1040,6 +1040,18 @@ p.hero-text.has-large-font-size {
   font-variant: small-caps;
 }
 
+.home .wp-block-cover .wp-block-buttons {
+  text-align: center;
+  position: relative;
+  bottom: -50px;
+}
+
+.home .wp-block-cover .wp-block-buttons .give-btn:hover a {
+  background-color: #92ae89 !important;
+  letter-spacing: .2em;
+  transform: scale(1.25);
+}
+
 
 nav .menu-toggle {
   background: #d59c40;
@@ -1378,9 +1390,18 @@ h1.entry-title {
     width: 50%;
   }
 
+  /* mailing list button */
   #custom_html-2 {
     width: 50%;
     margin: 2em auto;
+  }
+
+  /* give now button */
+  .home .wp-block-cover .wp-block-buttons {
+    text-align: left;
+    position: relative;
+    left: 3em;
+    bottom: -60px;
   }
 
   .home.page .wp-block-columns {
