@@ -15,13 +15,13 @@ Clone this repo and add to `wp-content/themes`.
 ## Images
 
 ![mobile screenshot 01 Burger Button](./screenshots/mobile01.png?raw=true)
-_Burger Button_
+_mobile_
 
 ![mobile screenshot 02 Homepage](./screenshots/mobile02.png?raw=true)
-_Home Page_
+_mobile_
 
-![tablet screenshot 01 Layout of Our Work Page](./screenshots/tablet01.png?raw=true)
-_Layout of Our Work Page_
+![desktop](./screenshots/desktop01.png?raw=true)
+_desktop_
 
 
 
