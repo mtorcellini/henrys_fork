@@ -1272,24 +1272,30 @@ h1.entry-title {
 
 /* events */
 
-.tribe-events-header__messages {
-  color: white;
-}
-
-.tribe-common-h3 {
-  color: white;
-}
-
-.tribe-common-h5 {
-  color: white;
-}
-
-.tribe-common-ancher-thin {
-  color: white;
-}
-
-.tribe-common a:visited {
+.tribe-common .tribe-common-h2, .tribe-common .tribe-common-h3, .tribe-common .tribe-common-h5, .tribe-events-schedule h2, .single-tribe_events .tribe-events-single-event-title, .tribe-common .tribe-common-b2, .tribe-common .tribe-common-h6, .tribe-common a, .tribe-common a:hover, .tribe-common a:visited {
   color: inherit;
+}
+
+a.tribe-common-c-btn-border-small {
+  color: black !important;
+}
+
+.single-tribe_events .tribe-events-event-meta {
+  background: inherit;
+  border: 1px solid #d59c40;
+}
+
+.single-tribe_events .tribe-events-schedule {
+  background: inherit;
+  border: 1px solid #d59c40;
+}
+
+#tribe-events-footer:before, #tribe-events-footer:after {
+  background-color: inherit;
+}
+
+.tribe-events-event-meta .tribe-events-meta-group {
+  width: 100%;
 }
 
 /* donate page */
