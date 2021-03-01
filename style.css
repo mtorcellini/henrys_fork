@@ -1298,6 +1298,19 @@ a.tribe-common-c-btn-border-small {
   width: 100%;
 }
 
+.tribe-events-list-separator-month span {
+  background-color: inherit;
+}
+
+.tribe-events-list-separator-month:after {
+  border: none;
+}
+
+.tribe-events-loop .tribe-events-event-meta {
+  background: inherit;
+  border: none;
+}
+
 /* donate page */
 
 .donate-form {
