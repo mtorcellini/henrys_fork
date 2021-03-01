@@ -1270,6 +1270,28 @@ h1.entry-title {
 
 }
 
+/* events */
+
+.tribe-events-header__messages {
+  color: white;
+}
+
+.tribe-common-h3 {
+  color: white;
+}
+
+.tribe-common-h5 {
+  color: white;
+}
+
+.tribe-common-ancher-thin {
+  color: white;
+}
+
+.tribe-common a:visited {
+  color: inherit;
+}
+
 /* donate page */
 
 .donate-form {
