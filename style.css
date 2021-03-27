@@ -979,6 +979,10 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit !important;
+}
+
+a:hover, a:focus, a:visited {
   color: inherit;
 }
 
@@ -994,6 +998,8 @@ a:visited {
   color: inherit;
 }
 
+/* buttons */
+
 .wp-block-button__link {
   background-color: #d59c40;
   transition: 300ms;
@@ -1007,17 +1013,27 @@ a:visited {
   background-color: #000;
 }
 
+/* header */
+
 .site-branding {
   display: flex;
   flex-flow: row wrap;
 }
 
 .site-title {
+  font-weight: 500;
+  margin: 1em 0;
   text-align: right;
   font-size: 1.8rem;
   padding: 0;
   width: 75%;
 }
+
+p.site-title {
+  font-size: 1.25rem;
+}
+
+/* nav menu */
 
 .main-navigation {
   display: flex;
@@ -1025,34 +1041,6 @@ a:visited {
   align-items: center;
   width: 25%;
 }
-
-.site-title {
-  font-size: 1.75rem;
-  font-weight: 500;
-  margin: 1em 0;
-}
-
-p.site-title {
-  font-size: 1.25rem;
-}
-
-p.hero-text.has-large-font-size {
-  font-variant: small-caps;
-}
-
-/* give now button */
-.home .wp-block-cover .wp-block-buttons {
-  text-align: center;
-  position: relative;
-  bottom: -150px;
-}
-
-.home .wp-block-cover .wp-block-buttons .give-btn:hover a {
-  background-color: #92ae89 !important;
-  letter-spacing: .2em;
-  transform: scale(1.25);
-}
-
 
 nav .menu-toggle {
   background: #d59c40;
@@ -1070,10 +1058,9 @@ nav .menu-toggle {
   right: 15px;
 }
 
-  nav .menu-toggle:hover {
-    background-color: #32373c;
-  }
-
+nav .menu-toggle:hover {
+  background-color: #32373c;
+}
 
 nav .menu-toggle:active {
   background: #111;
@@ -1138,11 +1125,34 @@ nav .menu-toggle:active {
   padding: .5em;
 }
 
+
+/* hero image */
+
+p.hero-text.has-large-font-size {
+  font-variant: small-caps;
+}
+
+/* give now button */
+.home .wp-block-cover .wp-block-buttons {
+  text-align: center;
+  position: relative;
+  bottom: -150px;
+}
+
+.home .wp-block-cover .wp-block-buttons .give-btn:hover a {
+  background-color: #92ae89 !important;
+  letter-spacing: .2em;
+  transform: scale(1.25);
+}
+
+/* search bar */
+
 .widget_search #search-form {
   margin: 0 auto;
   text-align: center;
   width: 100%;
 }
+ /* mailing list */
 
 button[type="submit"], button.mailing {
   background-color: #d59c40;
@@ -1163,7 +1173,6 @@ button[type="submit"]:hover, button.mailing:hover {
   text-align: center;
 }
 
-
 #mc4wp_form_widget-2 {
   text-align: center;
   margin: 0 auto;
@@ -1173,6 +1182,8 @@ button[type="submit"]:hover, button.mailing:hover {
   display: block;
   margin: .25em auto;
 }
+
+/* main content */
 
 main {
   width: 100%;
@@ -1189,6 +1200,14 @@ main {
 
 .entry-content a {
   color: #92ae89;
+}
+
+/* home page quizzes */
+
+.home .wplp_widget_366 .title {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .home h2 {
@@ -1317,6 +1336,12 @@ a.tribe-common-c-btn-border-small {
   border: none;
 }
 
+/* featured events */
+
+/* .tribe-event-featured {
+  
+} */
+
 /* donate page */
 
 .donate-form {
@@ -1365,7 +1390,6 @@ a.tribe-common-c-btn-border-small {
 
 /* single post */
 
-
 .single-post time.entry-date {
   color: #92ae89;
 }
@@ -1393,20 +1417,29 @@ a.tribe-common-c-btn-border-small {
 }
 
 @media screen and (min-width: 768px) {
+  
 
-  .page .entry-content {
-    margin: 0 auto;
+  /* header */
+  
+  #masthead {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
     width: 85%;
+    margin: 0 auto;
   }
 
-  .home.page .entry-content {
+  .site-branding {
     width: 100%;
   }
-  
+
   .site-title {
     text-align: center;
     width: auto;
   }
+  
+  /* nav bar */
 
   .main-navigation {
     width: 90%;
@@ -1432,6 +1465,8 @@ a.tribe-common-c-btn-border-small {
     border-bottom: 1px solid #d59c40;
   }
 
+  /* donate button in nav bar */
+
   #menu-item-16 {
     border-bottom: none;
     border-radius: 50px;
@@ -1446,21 +1481,10 @@ a.tribe-common-c-btn-border-small {
     letter-spacing: 0;
   }
 
+  /* search bar */
+
   .widget_search {
     margin: 2em auto;
-  }
-
-  #masthead {
-    display: flex;
-    flex-flow: row wrap;
-    flex-direction: row-reverse;
-    justify-content: center;
-    width: 85%;
-    margin: 0 auto;
-  }
-
-  .site-branding {
-    width: 100%;
   }
 
   #search-2 {
@@ -1468,25 +1492,41 @@ a.tribe-common-c-btn-border-small {
   }
 
   /* mailing list button */
+
   #custom_html-2 {
     width: 50%;
     margin: 2em auto;
   }
 
-  /* give now button */
-  .home .wp-block-cover .wp-block-buttons {
-    text-align: left;
-    position: relative;
-    left: 3em;
-    bottom: -150px;
+  /* main content */
+
+  .page .entry-content {
+    margin: 0 auto;
+    width: 85%;
+  }
+  
+  h1.entry-title {
+    width: 85%;
   }
 
+  /* home page */
+
+  .home.page .entry-content {
+    width: 100%;
+  }
+  
   .home.page .wp-block-columns {
     margin: 20px auto;
     width: 90%;
   }
 
-  /* quizzes on homepage */
+  /* give now button */
+  .home .wp-block-cover .wp-block-buttons {
+    text-align: left;
+    margin-left: 25px;
+  }
+  
+  /*  homepage quizzes */
   /* local version 290, live 366 */
   #wplp_widget_290 .flex-viewport .insideframe > ul, #wplp_widget_366 .flex-viewport .insideframe > ul {
     display: flex;
@@ -1494,9 +1534,6 @@ a.tribe-common-c-btn-border-small {
     justify-content: space-evenly;
   }
 
-  h1.entry-title {
-    width: 85%;
-  }
   
   /* about-us */
 
