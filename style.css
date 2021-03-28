@@ -1285,6 +1285,10 @@ h1.entry-title {
 
 /* news page */
 
+.wp-block-button__link {
+  color: #fff !important;
+}
+
 .wplp_widget_masonry-category .wplp_listposts li {
   border: none !important;
 }
@@ -1292,8 +1296,9 @@ h1.entry-title {
 .masonry-brick:hover .img_cropper::before {
   content: none !important;
   background: none;
-
 }
+
+
 
 /* events */
 
