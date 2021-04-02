@@ -53,9 +53,10 @@
     </div><!-- .site-branding -->
     
     <?php 
-    if (is_active_sidebar('sidebar-top')) {
-      dynamic_sidebar('sidebar-top');
-    }
+    // COMMENTED OUT sidebar with mailing list button and original search bar
+    // if (is_active_sidebar('sidebar-top')) {
+    //   dynamic_sidebar('sidebar-top');
+    // }
     ?>
 
 	</header><!-- #masthead -->
