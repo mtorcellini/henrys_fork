@@ -1091,7 +1091,7 @@ nav .menu-toggle:active {
   display: block;
   margin: 0 auto;
   border-bottom: 1px solid #d59c40;
-  width: 40%;
+  width: 80%;
   text-align: center;
 }
 
@@ -1152,6 +1152,32 @@ p.hero-text.has-large-font-size {
   text-align: center;
   width: 100%;
 }
+
+#primary-menu li.astm-search-menu {
+  margin-top: 5px;
+  border-bottom: none !important;
+  margin-bottom: 0;
+}
+
+
+#primary-menu li.astm-search-menu.is-menu path.search-icon-path {
+  fill: white !important;
+}
+
+
+#primary-menu .astm-search-menu form.is-search-form {
+  right: 0;
+  min-width: 290px;
+}
+
+body .search-close {
+  right: -30px;
+}
+
+body .search-close:before, body .search-close:after {
+  border-color: white !important;
+}
+
  /* mailing list */
 
 button[type="submit"], button.mailing {
@@ -1495,6 +1521,21 @@ a.tribe-common-c-btn-border-small {
   #search-2 {
     width: 50%;
   }
+
+  #primary-menu li.astm-search-menu {
+    margin-bottom: -10px;
+  }
+
+  #primary-menu .astm-search-menu form.is-search-form {
+    min-width: 310px;
+    left: -190px;
+  }
+
+  body .search-close {
+    right: -130px !important;
+  }
+
+
 
   /* mailing list button */
 
