@@ -1555,6 +1555,10 @@ a.tribe-common-c-btn-border-small {
     width: 85%;
   }
 
+  .entry-content figure {
+    width: auto;
+  }
+
   /* home page */
 
   .home.page .entry-content {
@@ -1671,7 +1675,7 @@ a.tribe-common-c-btn-border-small {
   }
 
   .single-post figure {
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
   }
 
