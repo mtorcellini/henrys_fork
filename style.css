@@ -968,7 +968,21 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
-/* CUSTOM STYLES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************** CUSTOM STYLES ********************************************/
 
 body {
   background-color: #0A0A0A;
@@ -977,40 +991,22 @@ body {
   font-family: Arial, sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: inherit !important;
-}
-
-a:hover, a:focus, a:visited {
-  color: inherit;
-}
-
 h1, h2, h3, h4, h5, h6, p {
   padding: 0 1em;
 }
 
 h2 a {
-  color: #66a4c0 !important;
-}
-
-a:visited {
-  color: inherit;
+  color: #66a4c0;
 }
 
 /* buttons */
 
-.wp-block-button__link {
-  background-color: #d59c40;
+.wp-block-button {
   transition: 300ms;
 }
 
-.wp-block-button__link:hover {
-  background-color: #32373c;
-}
-
-.wp-block-button__link:active {
-  background-color: #000;
+.wp-block-button__link {
+  transition: 300ms;
 }
 
 /* header */
@@ -1018,6 +1014,10 @@ a:visited {
 .site-branding {
   display: flex;
   flex-flow: row wrap;
+}
+
+.site-branding a {
+  color: #fff;
 }
 
 .site-title {
@@ -1159,11 +1159,9 @@ p.hero-text.has-large-font-size {
   margin-bottom: 0;
 }
 
-
 #primary-menu li.astm-search-menu.is-menu path.search-icon-path {
   fill: white !important;
 }
-
 
 #primary-menu .astm-search-menu form.is-search-form {
   right: 0;
@@ -1176,37 +1174,6 @@ body .search-close {
 
 body .search-close:before, body .search-close:after {
   border-color: white !important;
-}
-
- /* mailing list */
-
-button[type="submit"], button.mailing {
-  background-color: #d59c40;
-  border: none;
-  display: inline-block;
-  height: 2em;
-  padding: 0 .5em;
-  transition: 350ms
-}
-
-button[type="submit"]:hover, button.mailing:hover {
-  background-color: #333;
-  color: #fff;
-}
-
-.textwidget.custom-html-widget {
-  margin: 0 auto;
-  text-align: center;
-}
-
-#mc4wp_form_widget-2 {
-  text-align: center;
-  margin: 0 auto;
-}
-
-#mc4wp_form_widget-2 .mc4wp-form-fields > * {
-  display: block;
-  margin: .25em auto;
 }
 
 /* main content */
@@ -1231,9 +1198,21 @@ main {
 /* home page quizzes */
 
 .home .wplp_widget_366 .title {
-  color: #fff;
   text-align: center;
-  margin: 0 auto;
+}
+
+.home .wplp_widget_366 .read-more, .home .wplp_widget_366 .text {
+  display: none;
+}
+
+.home .wplp_widget_366 .li-item-id {
+  background-size: cover;
+}
+
+.home .wplp_widget_366 a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .home h2 {
@@ -1266,7 +1245,6 @@ h1.entry-title {
   width: 75%;
   margin: 0 auto;
   position: static;
-
 }
 
 .mission-section figure img {
@@ -1311,9 +1289,13 @@ h1.entry-title {
 
 /* news page */
 
-.wp-block-button__link {
-  color: #fff !important;
+.page .wplp_outside {
+  margin: 0 auto;
 }
+
+/* .wp-block-button__link {
+  color: #fff !important;
+} */
 
 .wplp_widget_masonry-category .wplp_listposts li {
   border: none !important;
@@ -1324,7 +1306,9 @@ h1.entry-title {
   background: none;
 }
 
-
+.wpcu-front-box.top .img_cropper, .wpcu-front-box.bottom .img_cropper {
+  max-height: 300px;
+}
 
 /* events */
 
@@ -1582,6 +1566,10 @@ a.tribe-common-c-btn-border-small {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
+  }
+
+  .wpcu-front-box.top .img_cropper, .wpcu-front-box.bottom .img_cropper {
+    max-height: none;
   }
 
   
